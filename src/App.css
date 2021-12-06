@@ -1,0 +1,62 @@
+.App{
+    background-color: #E9EEF2;
+    height: 100vh;
+}
+.right-content{
+    padding: 20px 40px;
+    margin-left: 60px;
+}
+.graph-parent{
+    display: flex;
+    justify-content: center;
+}
+.graph-parent div.graph-section{
+    width: 50%;
+    background: white;
+    border-radius: 4px;
+    margin: 20px 20px 20px 0px;
+    padding: 20px 20px 20px 40px;
+    /* width: 560px; */
+    /* height: 460px; */
+    position: relative;
+    display: inline-table;
+}
+div.graph-section:first-child{
+    margin-right: 50px !important;
+}
+div.graph-section h4{
+    margin-top: 0px ;
+}
+.y_axis_label{
+    position: absolute;
+    top: 43%;
+    transform: rotate(
+-90deg);
+    justify-content: center;
+    left: -15px;
+}
+.x_axis_label{
+    width: 530px;
+    text-align: center;
+    margin: 0px !important;
+}
+.recharts-layer text {
+    font-size: 12px;
+}
+.reactnagle{
+    width: 16px;
+    height: 16px;
+    background: red;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.graphs-data{
+    display: flex;
+    align-items: center;
+}
+.clear{
+    clear: both;
+}
